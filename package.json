@@ -9,7 +9,8 @@
     "build": "npm run build:dev",
     "build:dev": "webpack --watch -d",
     "build:prod": "webpack",
-    "postinstall": "npm run build:prod"
+    "postinstall": "npm run build:prod",
+    "start:prod": "npm run build:prod && npm start"
   },
   "repository": {
     "type": "git",
